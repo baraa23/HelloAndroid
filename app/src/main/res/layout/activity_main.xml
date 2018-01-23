@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E0E0E0"
+    >
+
+
+    <ImageView
+        android:id="@+id/udacityimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:paddingBottom="5dp"
+        android:src="@drawable/udacityimage"/>
+
+
+
+    <TextView
+        android:id="@+id/textone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingStart="20dp"
+        android:paddingBottom="7dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@id/udacityimage"
+        android:text="Udacity"
+        android:visibility="visible"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/texttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingStart="20dp"
+        android:paddingBottom="7dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="650-555-5555"
+        android:textColorLink="#01579B"
+        android:visibility="visible"
+        android:layout_below="@id/textone"
+        android:autoLink="phone"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingStart="20dp"
+        android:paddingBottom="7dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@id/texttwo"
+        android:text="2465 Latham St"
+        android:autoLink="map"
+        android:visibility="visible"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingStart="20dp"
+        android:paddingBottom="7dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@id/textthree"
+        android:text="Mountain View, CA 94043"
+        android:autoLink="map"
+        android:visibility="visible"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textplus"
+        android:autoLink="web"
+        android:paddingBottom="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingStart="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="www.udacity.com"
+        android:textColorLink="#01579B"
+        android:visibility="visible"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textfour"
+        android:src="@drawable/udacitynewbarlogo" />
+
+
+</RelativeLayout>
